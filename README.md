@@ -1,6 +1,6 @@
 # Optuna - Hyperparameter Optimization Framework using SLURM
 
-Framework for running Optuna on a SLURM server. 
+Framework for running Optuna on a SLURM server. For more information on running Optuna, see [Optuna GitHub Repository](https://github.com/optuna/optuna)
 
 **1) Install an Optuna environment using the .yml file that I've provided in the repo:**
 
