@@ -7,6 +7,7 @@ This repository provides a clean, reproducible example of using **Optuna** to tu
 
 ## 📁 Repository Structure
 
+```
 Optuna/
 ├── env
 │ └── optuna-env.yml
@@ -14,7 +15,7 @@ Optuna/
 │ ├── run_optuna.sh
 │ └── optuna_script-dd.py
 └── README.md
-
+```
 ---
 
 ## 🚀 Quick Start
