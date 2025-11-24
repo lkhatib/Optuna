@@ -1,11 +1,11 @@
-# 🧬 Age Prediction from Clinical & Microbiome Data  
+# Age Prediction from Clinical & Microbiome Data  
 ### Hyperparameter Tuning with Optuna + Keras (MLP Regression)
 
-This repository provides a clean, reproducible example of using **Optuna** to tune a **Keras MLP regression model** for predicting **age** from clinical, microbiome, or other biological datasets.  
+This repository provides a reproducible example of using **Optuna** to tune a **Keras MLP regression model** for predicting **age** from clinical, microbiome, or other biological datasets.  
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Optuna/
@@ -18,7 +18,7 @@ Optuna/
 ```
 ---
 
-## 🚀 Quick Start
+## Instructions
 
 ### 1. Install Dependencies
 
@@ -60,7 +60,7 @@ Results are saved in:
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 The script builds a tunable **MLP regression model** with:
 
@@ -75,7 +75,7 @@ All hyperparameters are optimized with **Optuna**.
 
 ---
 
-## 🧪 Hyperparameter Optimization
+## Hyperparameter Optimization
 
 Optuna optimizes validation **MAE** using TPE sampling.
 
@@ -93,7 +93,7 @@ Tuned parameters include:
 
 ---
 
-## 🧬 Working with Microbiome Data
+## Working with Microbiome Data
 
 If microbiome features are used, preprocessing may include:
 
@@ -108,7 +108,7 @@ from biom import load_table
 
 ---
 
-## ⏱ Running on HPC (SLURM)
+## Running on HPC (SLURM)
 
 Submit the example SLURM job:
 
@@ -118,7 +118,7 @@ Modify environment setup, resource requests, and paths as needed.
 
 ---
 
-## 📊 Example Optuna Summary (JSON)
+## Example Optuna Summary (JSON)
 
 {
   "best_val_mae": 5.82,
